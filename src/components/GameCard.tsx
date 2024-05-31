@@ -9,7 +9,7 @@ const GameCard = ({ game }: Props) => {
     <Card borderRadius={10} overflow="hidden">
       <Image src={game.background_image} />
       <CardBody>
-        <Heading fontFamily="2xl">{game.name}</Heading>
+        <Heading fontSize="2xl">{game.name}</Heading>
       </CardBody>
     </Card>
   );
